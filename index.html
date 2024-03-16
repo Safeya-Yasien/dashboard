@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- goole icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <nav class="p-20">
+        <div class="container">
+          <div class="d-grid d-grid-3 align-center">
+            <div class="logo flex-align-center">
+              <div class="bar">
+                <i class="fa-solid fa-bars mr-15"></i>
+              </div>
+              <a href="index.html"> <img src="imgs/logo.png" alt="logo" /></a>
+            </div>
+            <div class="search">
+              <form class="p-relative">
+                <input
+                  type="search"
+                  placeholder="Search"
+                  class="w-full border-0 outline-0 b-radius"
+                />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </form>
+            </div>
+            <div class="user">
+              <div class="flex-align-center justify-content-end">
+                <div class="navt">
+                  <a href="#" class="">
+                    <i class="fa-solid fa-bell"></i>
+                    <span class="flex-center b-radius notification-count"
+                      >2</span
+                    >
+                  </a>
+                </div>
+                <div class="user-area ml-30 p-relative">
+                  <a
+                    data-menu="user-option"
+                    href="#"
+                    class="flex-align-center dropdown"
+                  >
+                    <figure class="logo-img">
+                      <img src="imgs/user.png" alt="user" />
+                    </figure>
+                    <span class="ml-10 flex-align-center">
+                      Hi, Safeya
+                      <i class="fa-solid fa-chevron-down ml-5"></i>
+                    </span>
+                  </a>
+                  <ul id="user-option" class="p-0 dropdown-menu">
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Logout</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="dashboard-content">
+      <div class="sidebar">
+        <div class="container">
+          <div class="user-info text-center">
+            <figure class="p-relative logo-img m-auto">
+              <img src="imgs/user.png" alt="user" />
+              <span class="notification-count">2</span>
+            </figure>
+            <h5 class="mt-15 mb-5">Safeya Yasien</h5>
+            <p class="mb-20">Frontend Developer</p>
+            <ul class="user-icons p-0 flex-center mt-5 gap-20">
+              <li>
+                <i class="fa-solid fa-trophy"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-sack-dollar"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="menus">
+            <ul class="p-0">
+              <li class="p-relative">
+                <a data-menu="submenu" class="dropdown active" href="#">
+                  <i class="fa-solid fa-gamepad mr-15"></i>
+                  Games
+                  <span>2</span>
+                </a>
+                <ul id="submenu" class="p-0 mt-10 dropdown-menu">
+                  <li><a href="#">Competitions</a></li>
+                  <li><a href="#">Pending</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="" href="#">
+                  <i class="fa-solid fa-video mr-15"></i>
+                  Videos
+                  <span>0</span>
+                </a>
+              </li>
+              <li>
+                <a class="" href="#">
+                  <i class="fa-solid fa-calendar-days mr-15"></i>
+                  Events
+                  <span>0</span>
+                </a>
+              </li>
+              <li class="p-relative">
+                <a data-menu="submenu-2" class="dropdown submenu" href="#">
+                  <i class="fa-solid fa-gauge-high mr-15"></i>
+                  Leaderboards
+                  <span>2</span>
+                </a>
+                <ul id="submenu-2" class="p-0 mt-10 dropdown-menu">
+                  <li><a href="#">Competitions</a></li>
+                  <li><a href="#">Pending</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
