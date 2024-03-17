@@ -63,7 +63,7 @@
                     class="flex-align-center dropdown"
                   >
                     <figure class="logo-img">
-                      <img src="imgs/user.png" alt="user" />
+                      <img src="imgs/user.jpeg" alt="user" />
                     </figure>
                     <span class="ml-10 flex-align-center">
                       Hi, Safeya
@@ -88,7 +88,7 @@
         <div class="container">
           <div class="user-info text-center p-relative">
             <figure class="p-relative logo-img m-auto">
-              <img src="imgs/user.png" alt="user" />
+              <img src="imgs/user.jpeg" alt="user" />
             </figure>
             <span class="notification-count flex-center">2</span>
             <h5 class="mt-15 mb-5">Safeya Yasien</h5>
@@ -157,132 +157,883 @@
             <option value="">Categories</option>
           </select>
           <ul class="bar-links d-flex justify-content-around">
-            <li><a href="#">Recommended</a></li>
-            <li><a href="#">Trending Games</a></li>
-            <li><a href="#">New Releases</a></li>
+            <li>
+              <a class="active" id="top-bar-link" href="#" data-area-tab="tab-1"
+                >Recommended</a
+              >
+            </li>
+            <li>
+              <a id="top-bar-link" href="#" data-area-tab="tab-2"
+                >Trending Games</a
+              >
+            </li>
+            <li>
+              <a id="top-bar-link" href="#" data-area-tab="tab-3"
+                >New Releases</a
+              >
+            </li>
           </ul>
           <ul class="bar-icons d-flex justify-content-around">
             <li>
-              <a href="#"><i class="fa-solid fa-grip"></i></a>
+              <a href="#" class="grid-icon"><i class="fa-solid fa-grip"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fa-solid fa-list"></i></a>
+              <a href="#" class="list-icon"><i class="fa-solid fa-list"></i></a>
             </li>
           </ul>
         </div>
-        <div class="landing mt-50">
-          <div class="head d-flex align-center justify-content-between">
-            <div>
-              <p class="mb-5">Don't Miss them</p>
-              <h3>Recommended for you</h3>
+
+        <div class="tabs">
+          <div class="tab active" id="tab-1">
+            <div class="landing mt-50">
+              <div class="head d-flex align-center justify-content-between">
+                <div>
+                  <p class="mb-5">Don't Miss them</p>
+                  <h3>Recommended for you</h3>
+                </div>
+                <a href="#" class="view-all-btn">View all</a>
+              </div>
+              <div class="cards d-grid mt-20 gap-20">
+                <div class="card-item p-20 p-relative blue">
+                  <ul
+                    class="top-card-icons p-relative d-flex align-center gap-10 p-0"
+                  >
+                    <li class="user-icon flex-center">
+                      <i class="fa-regular fa-user"></i>
+                      <span>4,999</span>
+                    </li>
+                    <li class="stars flex-center">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star-half-stroke"></i>
+                      <span>4.5 </span>
+                    </li>
+                  </ul>
+                  <div class="thumb p-relative">
+                    <div class="image">
+                      <img class="" src="imgs/img.png" alt="game-1" />
+                    </div>
+                    <div class="text">
+                      <h3 class="mb-5">Score! Hero</h3>
+                      <p>First Touch Games Ltd.</p>
+                    </div>
+                  </div>
+                  <a href="#" class="p-relative">Additional Information</a>
+                  <img
+                    class="main-img p-relative"
+                    src="imgs/img01.png"
+                    alt="image01"
+                  />
+                </div>
+                <div class="card-item p-20 p-relative moov">
+                  <ul
+                    class="top-card-icons p-relative d-flex align-center gap-10 p-0"
+                  >
+                    <li class="user-icon flex-center">
+                      <i class="fa-regular fa-user"></i>
+                      <span>4,999</span>
+                    </li>
+                    <li class="stars flex-center">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star-half-stroke"></i>
+                      <span>4.5 </span>
+                    </li>
+                  </ul>
+                  <div class="thumb p-relative">
+                    <div class="image">
+                      <img class="" src="imgs/img.png" alt="game-1" />
+                    </div>
+                    <div class="text">
+                      <h3 class="mb-5">Score! Hero</h3>
+                      <p>First Touch Games Ltd.</p>
+                    </div>
+                  </div>
+                  <a href="#" class="p-relative">Additional Information</a>
+                  <img
+                    class="main-img p-relative"
+                    src="imgs/img02.png"
+                    alt="image01"
+                  />
+                </div>
+                <div class="card-item p-20 p-relative blue">
+                  <ul
+                    class="top-card-icons p-relative d-flex align-center gap-10 p-0"
+                  >
+                    <li class="user-icon flex-center">
+                      <i class="fa-regular fa-user"></i>
+                      <span>4,999</span>
+                    </li>
+                    <li class="stars flex-center">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star-half-stroke"></i>
+                      <span>4.5 </span>
+                    </li>
+                  </ul>
+                  <div class="thumb p-relative">
+                    <div class="image">
+                      <img class="" src="imgs/img.png" alt="game-1" />
+                    </div>
+                    <div class="text">
+                      <h3 class="mb-5">Score! Hero</h3>
+                      <p>First Touch Games Ltd.</p>
+                    </div>
+                  </div>
+                  <a href="#" class="p-relative">Additional Information</a>
+                  <img
+                    class="main-img p-relative"
+                    src="imgs/img03.png"
+                    alt="image01"
+                  />
+                </div>
+              </div>
             </div>
-            <a href="#" class="view-all-btn">View all</a>
+            <div class="footer mt-50">
+              <div class="head d-flex align-center justify-content-between">
+                <div>
+                  <p class="mb-5">Don't Miss them</p>
+                  <h3>Recommended for you</h3>
+                </div>
+                <a href="#" class="view-all-btn">View all</a>
+              </div>
+              <div class="boxs d-grid gap-20 mt-20">
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options-2">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options-2" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options-3">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options-3" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options-4">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options-4" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="cards d-grid mt-20 gap-20">
-            <div class="card-item p-20 p-relative blue">
-              <ul
-                class="top-card-icons p-relative d-flex align-center gap-10 p-0"
-              >
-                <li class="user-icon flex-center">
-                  <i class="fa-regular fa-user"></i>
-                  <span>4,999</span>
-                </li>
-                <li class="stars flex-center">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-regular fa-star-half-stroke"></i>
-                  <span>4.5 </span>
-                </li>
-              </ul>
-              <div class="thumb p-relative">
-                <div class="image">
-                  <img class="" src="imgs/img.png" alt="game-1" />
+          <div class="tab" id="tab-2">
+            <div class="landing mt-50">
+              <div class="head d-flex align-center justify-content-between">
+                <div>
+                  <p class="mb-5">Don't Miss them</p>
+                  <h3>Recommended for you</h3>
                 </div>
-                <div class="text">
-                  <h3 class="mb-5">Score! Hero</h3>
-                  <p>First Touch Games Ltd.</p>
+                <a href="#" class="view-all-btn">View all</a>
+              </div>
+              <div class="cards d-grid mt-20 gap-20">
+                <div class="card-item p-20 p-relative blue">
+                  <ul
+                    class="top-card-icons p-relative d-flex align-center gap-10 p-0"
+                  >
+                    <li class="user-icon flex-center">
+                      <i class="fa-regular fa-user"></i>
+                      <span>4,999</span>
+                    </li>
+                    <li class="stars flex-center">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star-half-stroke"></i>
+                      <span>4.5 </span>
+                    </li>
+                  </ul>
+                  <div class="thumb p-relative">
+                    <div class="image">
+                      <img class="" src="imgs/img.png" alt="game-1" />
+                    </div>
+                    <div class="text">
+                      <h3 class="mb-5">Score! Hero</h3>
+                      <p>First Touch Games Ltd.</p>
+                    </div>
+                  </div>
+                  <a href="#" class="p-relative">Additional Information</a>
+                  <img
+                    class="main-img p-relative"
+                    src="imgs/img03.png"
+                    alt="image01"
+                  />
+                </div>
+                <div class="card-item p-20 p-relative blue">
+                  <ul
+                    class="top-card-icons p-relative d-flex align-center gap-10 p-0"
+                  >
+                    <li class="user-icon flex-center">
+                      <i class="fa-regular fa-user"></i>
+                      <span>4,999</span>
+                    </li>
+                    <li class="stars flex-center">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star-half-stroke"></i>
+                      <span>4.5 </span>
+                    </li>
+                  </ul>
+                  <div class="thumb p-relative">
+                    <div class="image">
+                      <img class="" src="imgs/img.png" alt="game-1" />
+                    </div>
+                    <div class="text">
+                      <h3 class="mb-5">Score! Hero</h3>
+                      <p>First Touch Games Ltd.</p>
+                    </div>
+                  </div>
+                  <a href="#" class="p-relative">Additional Information</a>
+                  <img
+                    class="main-img p-relative"
+                    src="imgs/img01.png"
+                    alt="image01"
+                  />
+                </div>
+                <div class="card-item p-20 p-relative moov">
+                  <ul
+                    class="top-card-icons p-relative d-flex align-center gap-10 p-0"
+                  >
+                    <li class="user-icon flex-center">
+                      <i class="fa-regular fa-user"></i>
+                      <span>4,999</span>
+                    </li>
+                    <li class="stars flex-center">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star-half-stroke"></i>
+                      <span>4.5 </span>
+                    </li>
+                  </ul>
+                  <div class="thumb p-relative">
+                    <div class="image">
+                      <img class="" src="imgs/img.png" alt="game-1" />
+                    </div>
+                    <div class="text">
+                      <h3 class="mb-5">Score! Hero</h3>
+                      <p>First Touch Games Ltd.</p>
+                    </div>
+                  </div>
+                  <a href="#" class="p-relative">Additional Information</a>
+                  <img
+                    class="main-img p-relative"
+                    src="imgs/img02.png"
+                    alt="image01"
+                  />
                 </div>
               </div>
-              <a href="#" class="p-relative">Additional Information</a>
-              <img
-                class="main-img p-relative"
-                src="imgs/img01.png"
-                alt="image01"
-              />
             </div>
-            <div class="card-item p-20 p-relative moov">
-              <ul
-                class="top-card-icons p-relative d-flex align-center gap-10 p-0"
-              >
-                <li class="user-icon flex-center">
-                  <i class="fa-regular fa-user"></i>
-                  <span>4,999</span>
-                </li>
-                <li class="stars flex-center">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-regular fa-star-half-stroke"></i>
-                  <span>4.5 </span>
-                </li>
-              </ul>
-              <div class="thumb p-relative">
-                <div class="image">
-                  <img class="" src="imgs/img.png" alt="game-1" />
+            <div class="footer mt-50">
+              <div class="head d-flex align-center justify-content-between">
+                <div>
+                  <p class="mb-5">Don't Miss them</p>
+                  <h3>Recommended for you</h3>
                 </div>
-                <div class="text">
-                  <h3 class="mb-5">Score! Hero</h3>
-                  <p>First Touch Games Ltd.</p>
+                <a href="#" class="view-all-btn">View all</a>
+              </div>
+
+              <div class="boxs d-grid gap-20 mt-20">
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options-2">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options-2" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options-3">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options-3" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options-4">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options-4" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <a href="#" class="p-relative">Additional Information</a>
-              <img
-                class="main-img p-relative"
-                src="imgs/img02.png"
-                alt="image01"
-              />
             </div>
-            <div class="card-item p-20 p-relative blue">
-              <ul
-                class="top-card-icons p-relative d-flex align-center gap-10 p-0"
-              >
-                <li class="user-icon flex-center">
-                  <i class="fa-regular fa-user"></i>
-                  <span>4,999</span>
-                </li>
-                <li class="stars flex-center">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-regular fa-star-half-stroke"></i>
-                  <span>4.5 </span>
-                </li>
-              </ul>
-              <div class="thumb p-relative">
-                <div class="image">
-                  <img class="" src="imgs/img.png" alt="game-1" />
+          </div>
+          <div class="tab" id="tab-3">
+            <div class="landing mt-50">
+              <div class="head d-flex align-center justify-content-between">
+                <div>
+                  <p class="mb-5">Don't Miss them</p>
+                  <h3>Recommended for you</h3>
                 </div>
-                <div class="text">
-                  <h3 class="mb-5">Score! Hero</h3>
-                  <p>First Touch Games Ltd.</p>
+                <a href="#" class="view-all-btn">View all</a>
+              </div>
+              <div class="cards d-grid mt-20 gap-20">
+                <div class="card-item p-20 p-relative blue">
+                  <ul
+                    class="top-card-icons p-relative d-flex align-center gap-10 p-0"
+                  >
+                    <li class="user-icon flex-center">
+                      <i class="fa-regular fa-user"></i>
+                      <span>4,999</span>
+                    </li>
+                    <li class="stars flex-center">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star-half-stroke"></i>
+                      <span>4.5 </span>
+                    </li>
+                  </ul>
+                  <div class="thumb p-relative">
+                    <div class="image">
+                      <img class="" src="imgs/img.png" alt="game-1" />
+                    </div>
+                    <div class="text">
+                      <h3 class="mb-5">Score! Hero</h3>
+                      <p>First Touch Games Ltd.</p>
+                    </div>
+                  </div>
+                  <a href="#" class="p-relative">Additional Information</a>
+                  <img
+                    class="main-img p-relative"
+                    src="imgs/img01.png"
+                    alt="image01"
+                  />
+                </div>
+                <div class="card-item p-20 p-relative blue">
+                  <ul
+                    class="top-card-icons p-relative d-flex align-center gap-10 p-0"
+                  >
+                    <li class="user-icon flex-center">
+                      <i class="fa-regular fa-user"></i>
+                      <span>4,999</span>
+                    </li>
+                    <li class="stars flex-center">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star-half-stroke"></i>
+                      <span>4.5 </span>
+                    </li>
+                  </ul>
+                  <div class="thumb p-relative">
+                    <div class="image">
+                      <img class="" src="imgs/img.png" alt="game-1" />
+                    </div>
+                    <div class="text">
+                      <h3 class="mb-5">Score! Hero</h3>
+                      <p>First Touch Games Ltd.</p>
+                    </div>
+                  </div>
+                  <a href="#" class="p-relative">Additional Information</a>
+                  <img
+                    class="main-img p-relative"
+                    src="imgs/img03.png"
+                    alt="image01"
+                  />
+                </div>
+                <div class="card-item p-20 p-relative moov">
+                  <ul
+                    class="top-card-icons p-relative d-flex align-center gap-10 p-0"
+                  >
+                    <li class="user-icon flex-center">
+                      <i class="fa-regular fa-user"></i>
+                      <span>4,999</span>
+                    </li>
+                    <li class="stars flex-center">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star-half-stroke"></i>
+                      <span>4.5 </span>
+                    </li>
+                  </ul>
+                  <div class="thumb p-relative">
+                    <div class="image">
+                      <img class="" src="imgs/img.png" alt="game-1" />
+                    </div>
+                    <div class="text">
+                      <h3 class="mb-5">Score! Hero</h3>
+                      <p>First Touch Games Ltd.</p>
+                    </div>
+                  </div>
+                  <a href="#" class="p-relative">Additional Information</a>
+                  <img
+                    class="main-img p-relative"
+                    src="imgs/img02.png"
+                    alt="image01"
+                  />
                 </div>
               </div>
-              <a href="#" class="p-relative">Additional Information</a>
-              <img
-                class="main-img p-relative"
-                src="imgs/img03.png"
-                alt="image01"
-              />
+            </div>
+            <div class="footer mt-50">
+              <div class="head d-flex align-center justify-content-between">
+                <div>
+                  <p class="mb-5">Don't Miss them</p>
+                  <h3>Recommended for you</h3>
+                </div>
+                <a href="#" class="view-all-btn">View all</a>
+              </div>
+              <div class="boxs d-grid gap-20 mt-20">
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options-2">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options-2" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options-3">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options-3" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="box p-20 p-relative">
+                  <div class="dots">
+                    <a href="#" class="dropdown" data-menu="box-options-4">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul id="box-options-4" class="dropdown-menu p-0">
+                      <li><a href="#">update</a></li>
+                      <li><a href="#">remove</a></li>
+                    </ul>
+                  </div>
+                  <div class="thumb flex-align-center blue">
+                    <div class="image">
+                      <img src="imgs/image01.png" alt="image01" />
+                    </div>
+                    <div class="text">
+                      <h5>Black Craft 30</h5>
+                      <p>Fun Games</p>
+                    </div>
+                  </div>
+                  <div
+                    class="foot mt-15 flex-align-center justify-content-between"
+                  >
+                    <div class="user-images flex-align-center">
+                      <figure>
+                        <img src="imgs/001.png" alt="user-1" />
+                      </figure>
+                      <figure>
+                        <img src="imgs/002.png" alt="user-2" />
+                      </figure>
+                      <figure><img src="imgs/003.png" alt="user-3" /></figure>
+                      <figure><img src="imgs/001.png" alt="user-4" /></figure>
+                      <figure><img src="imgs/002.png" alt="user-5" /></figure>
+                      <figure><img src="imgs/003.png" alt="user-6" /></figure>
+                    </div>
+                    <div class="total">
+                      <span>331,851 total</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="js/main.js"></script>
   </body>
 </html>
